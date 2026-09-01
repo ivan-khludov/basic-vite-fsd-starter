@@ -1,0 +1,113 @@
+{
+  "common": {
+    "appName": "FSD Starter",
+    "cancel": "Отмена",
+    "loading": "Загрузка...",
+    "retry": "Повторить"
+  },
+  "routes": {
+    "home": "Каталог",
+    "login": "Вход",
+    "notFound": "Страница не найдена",
+    "product": "Товар"
+  },
+  "auth": {
+    "title": "Добро пожаловать!",
+    "description": "Пожалуйста, авторизуйтесь, чтобы продолжить.",
+    "username": "Логин",
+    "usernamePlaceholder": "Введите логин",
+    "password": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "rememberMe": "Запомнить данные",
+    "submit": "Войти",
+    "logout": "Выйти",
+    "loggedOut": "Вы вышли из системы",
+    "sessionExpiredTitle": "Сессия истекла",
+    "sessionExpiredDescription": "Войдите снова, чтобы продолжить.",
+    "validation": {
+      "usernameRequired": "Логин обязателен",
+      "passwordMin": "Пароль должен содержать минимум {{count}} символов"
+    },
+    "errors": {
+      "invalidCredentials": "Неверный логин или пароль",
+      "unknown": "Не удалось войти. Попробуйте позже"
+    }
+  },
+  "layout": {
+    "navigation": "Навигация",
+    "skipToContent": "Перейти к содержимому",
+    "toggleSidebar": "Свернуть меню",
+    "toggleTheme": "Сменить тему",
+    "toggleLocale": "Сменить язык",
+    "footer": {
+      "copyright": "© {{year}} {{author}}",
+      "support": "Поддержать"
+    }
+  },
+  "support": {
+    "title": "Поддержать проект",
+    "description": "Если проект оказался полезным, можно оставить чаевые в USDT (Tron / TRC-20).",
+    "addressLabel": "Адрес (TRC-20 / Tron)",
+    "qrAlt": "QR-код USDT TRC-20",
+    "copy": "Скопировать адрес",
+    "copied": "Адрес скопирован",
+    "copyFailed": "Не удалось скопировать адрес",
+    "networkWarning": "Отправляйте только USDT в сети Tron на этот адрес; перевод в другой сети может привести к потере средств."
+  },
+  "errors": {
+    "title": "Что-то пошло не так",
+    "description": "Произошла непредвиденная ошибка. Попробуйте обновить страницу.",
+    "networkTitle": "Нет соединения",
+    "networkDescription": "Проверьте сеть и попробуйте ещё раз.",
+    "notFoundTitle": "Страница не найдена",
+    "notFoundDescription": "Мы не смогли найти запрошенную страницу.",
+    "goHome": "На главную",
+    "reload": "Обновить страницу",
+    "unknown": "Неизвестная ошибка"
+  },
+  "products": {
+    "add": "Добавить товар",
+    "brand": "Бренд",
+    "brandPlaceholder": "Введите бренд",
+    "createTitle": "Новый товар",
+    "createDescription": "DummyJSON не сохраняет записи на сервере — товар останется в каталоге до перезагрузки.",
+    "writeDescription": "DummyJSON не сохраняет записи на сервере — изменения останутся до перезагрузки.",
+    "delete": "Удалить",
+    "deleteTitle": "Удалить товар?",
+    "deleteDescription": "Товар «{{title}}» будет убран из текущего каталога.",
+    "deleteConfirm": "Удалить",
+    "emptyTitle": "Товары не найдены",
+    "emptyDescription": "Измените запрос или добавьте новый товар.",
+    "next": "Вперёд",
+    "page": "Страница {{page}}",
+    "pagination": "Страницы каталога",
+    "price": "{{price}} $",
+    "priceLabel": "Цена",
+    "pricePlaceholder": "0.00",
+    "previous": "Назад",
+    "rating": "Рейтинг {{rating}}",
+    "save": "Сохранить",
+    "searchLabel": "Поиск",
+    "searchPlaceholder": "Название товара",
+    "sortLabel": "Сортировка",
+    "sort": {
+      "priceAsc": "Цена: по возрастанию",
+      "priceDesc": "Цена: по убыванию",
+      "ratingAsc": "Рейтинг: по возрастанию",
+      "ratingDesc": "Рейтинг: по убыванию"
+    },
+    "title": "Название",
+    "titlePlaceholder": "Введите название",
+    "toasts": {
+      "created": "Товар создан",
+      "deleted": "Товар удалён",
+      "updated": "Товар сохранён",
+      "unknown": "Не удалось выполнить действие. Попробуйте позже"
+    },
+    "validation": {
+      "pricePositive": "Цена должна быть больше нуля",
+      "priceRequired": "Цена обязательна",
+      "titleRequired": "Название обязательно"
+    }
+  }
+}

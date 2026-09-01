@@ -1,0 +1,113 @@
+{
+  "common": {
+    "appName": "FSD Starter",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "retry": "Retry"
+  },
+  "routes": {
+    "home": "Catalog",
+    "login": "Sign in",
+    "notFound": "Page not found",
+    "product": "Product"
+  },
+  "auth": {
+    "title": "Welcome back!",
+    "description": "Please sign in to continue.",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "submit": "Sign in",
+    "logout": "Sign out",
+    "loggedOut": "You have signed out",
+    "sessionExpiredTitle": "Session expired",
+    "sessionExpiredDescription": "Please sign in again to continue.",
+    "validation": {
+      "usernameRequired": "Username is required",
+      "passwordMin": "Password must be at least {{count}} characters"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid username or password",
+      "unknown": "Could not sign in. Please try again later"
+    }
+  },
+  "layout": {
+    "navigation": "Navigation",
+    "skipToContent": "Skip to content",
+    "toggleSidebar": "Collapse menu",
+    "toggleTheme": "Toggle theme",
+    "toggleLocale": "Change language",
+    "footer": {
+      "copyright": "© {{year}} {{author}}",
+      "support": "Support"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "description": "If this project helps you, optional tips in USDT (Tron / TRC-20) are welcome.",
+    "addressLabel": "Address (TRC-20 / Tron)",
+    "qrAlt": "USDT TRC-20 QR code",
+    "copy": "Copy address",
+    "copied": "Address copied",
+    "copyFailed": "Could not copy address",
+    "networkWarning": "Send only USDT over the Tron network to this address; using other chains can mean lost funds."
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Try reloading the page.",
+    "networkTitle": "No connection",
+    "networkDescription": "Check your network and try again.",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "We could not find the page you requested.",
+    "goHome": "Go home",
+    "reload": "Reload page",
+    "unknown": "Unknown error"
+  },
+  "products": {
+    "add": "Add product",
+    "brand": "Brand",
+    "brandPlaceholder": "Enter brand",
+    "createTitle": "New product",
+    "createDescription": "DummyJSON does not persist writes — the product stays in the catalog until you reload.",
+    "writeDescription": "DummyJSON does not persist writes — changes stay until you reload.",
+    "delete": "Delete",
+    "deleteTitle": "Delete this product?",
+    "deleteDescription": "“{{title}}” will be removed from the current catalog.",
+    "deleteConfirm": "Delete",
+    "emptyTitle": "No products found",
+    "emptyDescription": "Try a different search or add a new product.",
+    "next": "Next",
+    "page": "Page {{page}}",
+    "pagination": "Catalog pages",
+    "price": "${{price}}",
+    "priceLabel": "Price",
+    "pricePlaceholder": "0.00",
+    "previous": "Previous",
+    "rating": "Rating {{rating}}",
+    "save": "Save",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Product title",
+    "sortLabel": "Sort",
+    "sort": {
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "ratingAsc": "Rating: low to high",
+      "ratingDesc": "Rating: high to low"
+    },
+    "title": "Title",
+    "titlePlaceholder": "Enter title",
+    "toasts": {
+      "created": "Product created",
+      "deleted": "Product deleted",
+      "updated": "Product saved",
+      "unknown": "Could not complete the action. Please try again later"
+    },
+    "validation": {
+      "pricePositive": "Price must be greater than zero",
+      "priceRequired": "Price is required",
+      "titleRequired": "Title is required"
+    }
+  }
+}
