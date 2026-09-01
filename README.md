@@ -1,0 +1,1 @@
+# basic-vite-fsd-starter
