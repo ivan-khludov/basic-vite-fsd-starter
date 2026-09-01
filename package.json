@@ -2,6 +2,11 @@
   "name": "basic-vite-fsd-starter",
   "private": true,
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Ivan Khludov",
+    "email": "ivan.khludov.dev@gmail.com"
+  },
   "type": "module",
   "packageManager": "pnpm@10.33.2",
   "engines": {
