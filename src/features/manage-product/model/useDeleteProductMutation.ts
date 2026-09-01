@@ -2,7 +2,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
 
 import { deleteProduct, type Product } from '@/entities/product';
-import { ApiError } from '@/shared/api';
+import type { ApiError } from '@/shared/api';
 import { toast } from '@/shared/ui/toaster';
 
 import { removeProductFromCache } from './sync-product-cache';

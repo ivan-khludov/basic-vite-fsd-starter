@@ -6,7 +6,7 @@ import {
   type Product,
   type ProductWritePayload
 } from '@/entities/product';
-import { ApiError } from '@/shared/api';
+import type { ApiError } from '@/shared/api';
 import { toast } from '@/shared/ui/toaster';
 
 import { upsertProductInCache } from './sync-product-cache';

@@ -111,6 +111,7 @@ export const useProductsSortParams = () => {
       } else {
         nextSearchParams.set(PRODUCTS_URL_KEYS.skip, String(next.skip));
       }
+
       setSearchParams(nextSearchParams);
     },
     [searchParams, setSearchParams]

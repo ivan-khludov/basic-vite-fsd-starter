@@ -1,5 +1,14 @@
 # Vite FSD Starter
 
+[![CI](https://github.com/ivan-khludov/basic-vite-fsd-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/ivan-khludov/basic-vite-fsd-starter/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/github/license/ivan-khludov/basic-vite-fsd-starter)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-22+-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-10-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![FSD](https://img.shields.io/badge/architecture-FSD-5A67D8)](https://feature-sliced.design/)
+
 A production-minded React + TypeScript starter on [Vite](https://vite.dev/), structured with [Feature-Sliced Design](https://feature-sliced.design/). The demo app is a protected product catalog backed by [DummyJSON](https://dummyjson.com/).
 
 Use it as a template for a new SPA: auth, server state, URL-driven filters, i18n, and a full UI kit are already wired.
